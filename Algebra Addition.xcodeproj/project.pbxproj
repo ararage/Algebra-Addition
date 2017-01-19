@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73C554B1E30763C007BBC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C554A1E30763C007BBC65 /* AppDelegate.swift */; };
+		A73C554D1E30763C007BBC65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C554C1E30763C007BBC65 /* ViewController.swift */; };
+		A73C55501E30763C007BBC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73C554E1E30763C007BBC65 /* Main.storyboard */; };
+		A73C55531E30763C007BBC65 /* Algebra_Addition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A73C55511E30763C007BBC65 /* Algebra_Addition.xcdatamodeld */; };
+		A73C55551E30763C007BBC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73C55541E30763C007BBC65 /* Assets.xcassets */; };
+		A73C55581E30763C007BBC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73C55561E30763C007BBC65 /* LaunchScreen.storyboard */; };
+		A73C55631E30763C007BBC65 /* Algebra_AdditionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C55621E30763C007BBC65 /* Algebra_AdditionTests.swift */; };
+		A73C556E1E30763C007BBC65 /* Algebra_AdditionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C556D1E30763C007BBC65 /* Algebra_AdditionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A73C555F1E30763C007BBC65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73C553F1E30763C007BBC65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73C55461E30763C007BBC65;
+			remoteInfo = "Algebra Addition";
+		};
+		A73C556A1E30763C007BBC65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73C553F1E30763C007BBC65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73C55461E30763C007BBC65;
+			remoteInfo = "Algebra Addition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A73C55471E30763C007BBC65 /* Algebra Addition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algebra Addition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73C554A1E30763C007BBC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A73C554C1E30763C007BBC65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A73C554F1E30763C007BBC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A73C55521E30763C007BBC65 /* Algebra_Addition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Algebra_Addition.xcdatamodel; sourceTree = "<group>"; };
+		A73C55541E30763C007BBC65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A73C55571E30763C007BBC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A73C55591E30763C007BBC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73C555E1E30763C007BBC65 /* Algebra AdditionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algebra AdditionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73C55621E30763C007BBC65 /* Algebra_AdditionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algebra_AdditionTests.swift; sourceTree = "<group>"; };
+		A73C55641E30763C007BBC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73C55691E30763C007BBC65 /* Algebra AdditionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algebra AdditionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73C556D1E30763C007BBC65 /* Algebra_AdditionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algebra_AdditionUITests.swift; sourceTree = "<group>"; };
+		A73C556F1E30763C007BBC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73C55441E30763C007BBC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C555B1E30763C007BBC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C55661E30763C007BBC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73C553E1E30763C007BBC65 = {
+			isa = PBXGroup;
+			children = (
+				A73C55491E30763C007BBC65 /* Algebra Addition */,
+				A73C55611E30763C007BBC65 /* Algebra AdditionTests */,
+				A73C556C1E30763C007BBC65 /* Algebra AdditionUITests */,
+				A73C55481E30763C007BBC65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73C55481E30763C007BBC65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73C55471E30763C007BBC65 /* Algebra Addition.app */,
+				A73C555E1E30763C007BBC65 /* Algebra AdditionTests.xctest */,
+				A73C55691E30763C007BBC65 /* Algebra AdditionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73C55491E30763C007BBC65 /* Algebra Addition */ = {
+			isa = PBXGroup;
+			children = (
+				A73C554A1E30763C007BBC65 /* AppDelegate.swift */,
+				A73C554C1E30763C007BBC65 /* ViewController.swift */,
+				A73C554E1E30763C007BBC65 /* Main.storyboard */,
+				A73C55541E30763C007BBC65 /* Assets.xcassets */,
+				A73C55561E30763C007BBC65 /* LaunchScreen.storyboard */,
+				A73C55591E30763C007BBC65 /* Info.plist */,
+				A73C55511E30763C007BBC65 /* Algebra_Addition.xcdatamodeld */,
+			);
+			path = "Algebra Addition";
+			sourceTree = "<group>";
+		};
+		A73C55611E30763C007BBC65 /* Algebra AdditionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A73C55621E30763C007BBC65 /* Algebra_AdditionTests.swift */,
+				A73C55641E30763C007BBC65 /* Info.plist */,
+			);
+			path = "Algebra AdditionTests";
+			sourceTree = "<group>";
+		};
+		A73C556C1E30763C007BBC65 /* Algebra AdditionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A73C556D1E30763C007BBC65 /* Algebra_AdditionUITests.swift */,
+				A73C556F1E30763C007BBC65 /* Info.plist */,
+			);
+			path = "Algebra AdditionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73C55461E30763C007BBC65 /* Algebra Addition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73C55721E30763C007BBC65 /* Build configuration list for PBXNativeTarget "Algebra Addition" */;
+			buildPhases = (
+				A73C55431E30763C007BBC65 /* Sources */,
+				A73C55441E30763C007BBC65 /* Frameworks */,
+				A73C55451E30763C007BBC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algebra Addition";
+			productName = "Algebra Addition";
+			productReference = A73C55471E30763C007BBC65 /* Algebra Addition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A73C555D1E30763C007BBC65 /* Algebra AdditionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73C55751E30763C007BBC65 /* Build configuration list for PBXNativeTarget "Algebra AdditionTests" */;
+			buildPhases = (
+				A73C555A1E30763C007BBC65 /* Sources */,
+				A73C555B1E30763C007BBC65 /* Frameworks */,
+				A73C555C1E30763C007BBC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73C55601E30763C007BBC65 /* PBXTargetDependency */,
+			);
+			name = "Algebra AdditionTests";
+			productName = "Algebra AdditionTests";
+			productReference = A73C555E1E30763C007BBC65 /* Algebra AdditionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A73C55681E30763C007BBC65 /* Algebra AdditionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73C55781E30763C007BBC65 /* Build configuration list for PBXNativeTarget "Algebra AdditionUITests" */;
+			buildPhases = (
+				A73C55651E30763C007BBC65 /* Sources */,
+				A73C55661E30763C007BBC65 /* Frameworks */,
+				A73C55671E30763C007BBC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73C556B1E30763C007BBC65 /* PBXTargetDependency */,
+			);
+			name = "Algebra AdditionUITests";
+			productName = "Algebra AdditionUITests";
+			productReference = A73C55691E30763C007BBC65 /* Algebra AdditionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73C553F1E30763C007BBC65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ricardo Perez";
+				TargetAttributes = {
+					A73C55461E30763C007BBC65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BZ3MERU3H2;
+						ProvisioningStyle = Automatic;
+					};
+					A73C555D1E30763C007BBC65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BZ3MERU3H2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A73C55461E30763C007BBC65;
+					};
+					A73C55681E30763C007BBC65 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BZ3MERU3H2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A73C55461E30763C007BBC65;
+					};
+				};
+			};
+			buildConfigurationList = A73C55421E30763C007BBC65 /* Build configuration list for PBXProject "Algebra Addition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73C553E1E30763C007BBC65;
+			productRefGroup = A73C55481E30763C007BBC65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73C55461E30763C007BBC65 /* Algebra Addition */,
+				A73C555D1E30763C007BBC65 /* Algebra AdditionTests */,
+				A73C55681E30763C007BBC65 /* Algebra AdditionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73C55451E30763C007BBC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C55581E30763C007BBC65 /* LaunchScreen.storyboard in Resources */,
+				A73C55551E30763C007BBC65 /* Assets.xcassets in Resources */,
+				A73C55501E30763C007BBC65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C555C1E30763C007BBC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C55671E30763C007BBC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73C55431E30763C007BBC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C554D1E30763C007BBC65 /* ViewController.swift in Sources */,
+				A73C55531E30763C007BBC65 /* Algebra_Addition.xcdatamodeld in Sources */,
+				A73C554B1E30763C007BBC65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C555A1E30763C007BBC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C55631E30763C007BBC65 /* Algebra_AdditionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C55651E30763C007BBC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C556E1E30763C007BBC65 /* Algebra_AdditionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A73C55601E30763C007BBC65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73C55461E30763C007BBC65 /* Algebra Addition */;
+			targetProxy = A73C555F1E30763C007BBC65 /* PBXContainerItemProxy */;
+		};
+		A73C556B1E30763C007BBC65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73C55461E30763C007BBC65 /* Algebra Addition */;
+			targetProxy = A73C556A1E30763C007BBC65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A73C554E1E30763C007BBC65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73C554F1E30763C007BBC65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A73C55561E30763C007BBC65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73C55571E30763C007BBC65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73C55701E30763C007BBC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A73C55711E30763C007BBC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73C55731E30763C007BBC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Algebra Addition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Algebra-Addition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A73C55741E30763C007BBC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Algebra Addition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Algebra-Addition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A73C55761E30763C007BBC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Algebra AdditionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Algebra-AdditionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algebra Addition.app/Algebra Addition";
+			};
+			name = Debug;
+		};
+		A73C55771E30763C007BBC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Algebra AdditionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Algebra-AdditionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algebra Addition.app/Algebra Addition";
+			};
+			name = Release;
+		};
+		A73C55791E30763C007BBC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Algebra AdditionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Algebra-AdditionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Algebra Addition";
+			};
+			name = Debug;
+		};
+		A73C557A1E30763C007BBC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Algebra AdditionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Algebra-AdditionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Algebra Addition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73C55421E30763C007BBC65 /* Build configuration list for PBXProject "Algebra Addition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C55701E30763C007BBC65 /* Debug */,
+				A73C55711E30763C007BBC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73C55721E30763C007BBC65 /* Build configuration list for PBXNativeTarget "Algebra Addition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C55731E30763C007BBC65 /* Debug */,
+				A73C55741E30763C007BBC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A73C55751E30763C007BBC65 /* Build configuration list for PBXNativeTarget "Algebra AdditionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C55761E30763C007BBC65 /* Debug */,
+				A73C55771E30763C007BBC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A73C55781E30763C007BBC65 /* Build configuration list for PBXNativeTarget "Algebra AdditionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C55791E30763C007BBC65 /* Debug */,
+				A73C557A1E30763C007BBC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A73C55511E30763C007BBC65 /* Algebra_Addition.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A73C55521E30763C007BBC65 /* Algebra_Addition.xcdatamodel */,
+			);
+			currentVersion = A73C55521E30763C007BBC65 /* Algebra_Addition.xcdatamodel */;
+			path = Algebra_Addition.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A73C553F1E30763C007BBC65 /* Project object */;
+}
